@@ -1,0 +1,16 @@
+body {
+  font-family: sans-serif;
+  font-size: 40;
+  display: grid;
+  place-items: start;
+}
+
+div {
+  margin: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <section class="search-container">
+      <form class="formInput">
+        <input
+          type="text"
+          name="search"
+          class="searchInput"
+          placeholder="Enter country name..."
+        />
+        <button type="button" class="searchButton">Search</button>
+        <section class="filter-container">
+          <div class="form-control-one">
+            <label for="filterInput">Filter by:</label>
+            <select name="filterInput" id="filterInput">
+              <option value="name">Name</option>
+              <option value="population">Population</option>
+              <option value="area">Area</option>
+            </select>
+          </div>
+          <div class="form-control">
+            <label for="sortInput">Sort by:</label>
+            <select id="sortInput" name="sortInput">
+              <option value="asc">Ascending</option>
+              <option value="dsc">Descending</option>
+            </select>
+          </div>
+          <div class="btn-form">
+            <button id="filterBtn" type="button">Filter</button>
+          </div>
+        </section>
+      </form>
+      <div class="spinner-container hide">
+        <div class="pin"></div>
+        <div class="pulse"></div>
+      </div>
+      <div class="error"></div>
+    </section>
+    <section class="all-card-container">
+      <section class="card-container"></section>
+    </section>
+  </body>
+</html>

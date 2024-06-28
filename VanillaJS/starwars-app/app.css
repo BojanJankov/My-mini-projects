@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  background-image: url("/images/starwars.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  max-height: 100vh;
+}
+
+.yoda-container {
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.planet-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3px;
+  margin: 0px 5px 5px 5px;
+}
+
+.spaceship-container {
+  /* margin-left: 100px;
+  width: max-content; */
+  display: grid;
+  place-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.planet {
+  margin: 0 50px 0 210px;
+}
+.planet-table {
+  padding: 2px;
+  color: aliceblue;
+  border-collapse: collapse;
+  border: 1px solid white;
+  margin: 5px 0 600px 60px;
+}
+
+.yoda {
+  margin-top: 200px;
+  margin-left: 70px;
+}
+
+.spaceship {
+  margin-top: 250px;
+  margin-left: 40px;
+  margin-right: 60px;
+}
+
+.yoda-table {
+  margin: 300px 10px 0 50px;
+}
+
+.ship-table {
+  margin: 100px 10px 0 150px;
+}
+
+.ship-table,
+th,
+td {
+  padding: 1px;
+  color: aliceblue;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+.yoda-table,
+th,
+td {
+  padding: 2px;
+  color: aliceblue;
+  border-collapse: collapse;
+  border: 1px solid white;
+}
+
+.nextBtnPersons {
+  padding: 5px;
+  position: relative;
+  right: 100px;
+  top: 20px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+}
+.previousBtnPersons {
+  padding: 5px;
+  position: relative;
+  left: 150px;
+  bottom: 10px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+}
+
+.nextBtnShips {
+  position: relative;
+  right: 50px;
+  top: 20px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+  padding: 5px;
+}
+
+.previousBtnShips {
+  padding: 5px;
+  position: relative;
+  left: 200px;
+  bottom: 10px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+}
+
+.nextBtnPlanet {
+  position: relative;
+  bottom: 580px;
+  left: 150px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+  padding: 5px;
+}
+
+.previousBtnPlanet {
+  position: relative;
+  left: 400px;
+  bottom: 580px;
+  color: black;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  height: 30px;
+  padding: 5px;
+}
+
+.planet {
+  width: 350px;
+}

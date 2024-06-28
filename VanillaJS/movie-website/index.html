@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/app.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo-container">
+          <a href="./index.html">Movie app</a>
+        </div>
+        <form class="navigation-search" id="navigation-items">
+          <input
+            type="text"
+            id="searchInput"
+            name="searchInput"
+            placeholder="Search movie..."
+          />
+          <button type="submit" class="searchBtn">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <div class="other-nav-items">
+          <a href="">About</a>
+          <a href="">Contact Us</a>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="aside-container">
+        <div class="button-container">
+        <button type="button" class="prevButton">Prev Page</button>
+        <button class="nextButton" type="button">Next Page</button>
+        </div>        
+        <ul class="type-list"></ul>
+      </section>
+      <section class="main-container">
+        <h1 class="general-message none">Click on SEARCH to get all movies!</h1>
+        <!-- <div class="card-container">
+          <div class="card-img">
+            <img
+              src="../assets/images/movie image deafult.png"
+              alt="movie-img"
+              height="110px"
+            />
+          </div>
+          <h3 class="card-title">Movie Title</h3>
+          <p>Release date:</p>
+          <p>Rating:</p>
+          <p>Discription:</p>
+        </div> -->        
+    </main>
+    <footer class="footer">
+      <p>Copyright © Bojan Jankov 2024</p>
+    </footer>
+  </body>
+</html>

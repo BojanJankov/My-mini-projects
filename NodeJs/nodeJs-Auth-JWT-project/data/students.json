@@ -1,0 +1,50 @@
+[
+  {
+    "id": "ed1e311d-6b3a-40fd-85f5-b7035f395636",
+    "firstName": "Bojan",
+    "lastName": "jankov",
+    "age": 15,
+    "email": "bojanjankov4@gmail.com",
+    "academy": "SEDC"
+  },
+  {
+    "id": "7fdb721b-070a-424b-97c8-5f89b58f3287",
+    "firstName": "Bojan",
+    "lastName": "jankov",
+    "age": 20,
+    "email": "bojanjankov5@gmail.com",
+    "academy": "SEDC"
+  },
+  {
+    "id": "be550e3d-d961-4ab4-ab87-352d95822308",
+    "firstName": "Sofija",
+    "lastName": "Jankov",
+    "age": 17,
+    "email": "sofijajankov@gmail.com",
+    "academy": "Brainster"
+  },
+  {
+    "id": "ff8b244b-8c70-4e4b-b3ad-695b71eb24cd",
+    "firstName": "Mateja",
+    "lastName": "Velevska",
+    "age": 19,
+    "email": "mateijavelevska@gmail.com",
+    "academy": "Semos"
+  },
+  {
+    "id": "d22f14db-9f1b-4ca1-aed3-a9d42670cdea",
+    "firstName": "Ivo",
+    "lastName": "Sokoloski",
+    "age": 20,
+    "email": "ivosokoloski@gmail.com",
+    "academy": "Finki"
+  },
+  {
+    "id": "a6eb6c25-6436-41ce-b32f-0a236035395b",
+    "firstName": "Nikola",
+    "lastName": "Bozaroski",
+    "age": 21,
+    "email": "nikolabozaroski@gmail.com",
+    "academy": "SEDC"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "f7a55cf9-eea6-4e7c-95fa-9d12da6fdeb2",
+    "refreshTokens": [
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJmN2E1NWNmOS1lZWE2LTRlN2MtOTVmYS05ZDEyZGE2ZmRlYjIiLCJpYXQiOjE3MTEzNjg5MzUsImV4cCI6MTcxMTk3MzczNX0.P_8gZTIqv3tXirq4zdMKsiSRJuJjG_e-uMgap4Mpne8",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJmN2E1NWNmOS1lZWE2LTRlN2MtOTVmYS05ZDEyZGE2ZmRlYjIiLCJpYXQiOjE3MTEzNjk0MDYsImV4cCI6MTcxMTk3NDIwNn0.vdw6IuFhxvpQEC08pkWGdFNVc55zpj35ZKI_KC9ed90",
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJmN2E1NWNmOS1lZWE2LTRlN2MtOTVmYS05ZDEyZGE2ZmRlYjIiLCJpYXQiOjE3MTEzOTE4MDEsImV4cCI6MTcxMTk5NjYwMX0.PNeWPjdsaAvWxk_aOgiflDDD_1zMD2uZwN37Ia7X2Zs"
+    ],
+    "firstName": "Bojan",
+    "lastName": "jankov",
+    "email": "bojanjankov5@gmail.com",
+    "password": "$2a$08$6XkqnumI/LJExumqCaVhZOjrc9JBeupy3ynur9ldaPfxpF6Dqjp0S"
+  }
+]
