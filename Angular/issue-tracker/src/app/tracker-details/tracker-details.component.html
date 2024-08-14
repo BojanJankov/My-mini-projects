@@ -1,0 +1,13 @@
+<div class="ticket-details">
+  <h3>Ticket: {{ selectedTicket().title }}</h3>
+  <div>Description: {{ selectedTicket().description }}</div>
+  <p>
+    <strong>Assignee: {{ selectedTicket().assignee }}</strong>
+  </p>
+  <p>
+    <strong [ngClass]="selectedTicket().status"
+      >Status: {{ selectedTicket().status }}</strong
+    >
+  </p>
+  <button (click)="onClickClear()">Clear</button>
+</div>

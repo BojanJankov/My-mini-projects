@@ -1,0 +1,28 @@
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+main {
+  min-height: 750px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0;
+  height: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

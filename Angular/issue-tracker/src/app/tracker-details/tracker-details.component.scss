@@ -1,0 +1,31 @@
+.ticket-details {
+  border: 2px solid lightgray;
+  padding: 40px;
+  margin: 10px;
+  width: 350px;
+  border-radius: 4px;
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}
+
+.new {
+  color: #2ecc71;
+  text-transform: uppercase;
+}
+
+.in-progress {
+  color: #f1c40f;
+  text-transform: uppercase;
+}
+
+.done {
+  color: #2980b9;
+  text-transform: uppercase;
+}

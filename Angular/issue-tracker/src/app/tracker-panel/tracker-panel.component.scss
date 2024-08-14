@@ -1,0 +1,42 @@
+.tracker-panel {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 750px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px 20px;
+}
+
+.tracker-panel-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracker-control-buttons {
+  display: flex;
+  gap: 10px;
+  min-height: 40px;
+
+  button {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.tracker-list-container {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tracker-panel-details-container {
+  padding: 60px 0;
+}

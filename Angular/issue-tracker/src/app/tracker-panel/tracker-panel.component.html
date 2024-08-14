@@ -1,0 +1,28 @@
+<div class="tracker-panel">
+  <div class="tracker-panel-list-container">
+    <div class="tracker-control-buttons">
+      <button (click)="filterTickets(ticketStatus.NEW)">New</button>
+      <button (click)="filterTickets(ticketStatus.IN_PROGRESS)">
+        In progress
+      </button>
+      <button (click)="filterTickets(ticketStatus.DONE)">Done</button>
+      <button (click)="resetTickets()">Reset</button>
+    </div>
+    <div class="tracker-list-container">
+      @for(ticket of filteredTickets(); track ticket.id){
+      <app-tracker-card
+        [ticket]="ticket"
+        (onTicketSelect)="selectedTicketEvent($event)"
+      />
+      }
+    </div>
+  </div>
+  <div class="tracker-panel-details-container">
+    @if(isDetailsShown()){
+    <app-tracker-details
+      [selectedTicket]="selectedTicket()"
+      (hideOutput)="onHideOutputEvent()"
+    />
+    }
+  </div>
+</div>
